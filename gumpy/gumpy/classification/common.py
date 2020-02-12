@@ -154,7 +154,7 @@ class Tree(Classifier):
         return ClassificationResult(Y_test, Y_pred), self
     
 
-@register_classifier
+#@register_classifier
 class LogisticRegression(Classifier):
     """
     """
